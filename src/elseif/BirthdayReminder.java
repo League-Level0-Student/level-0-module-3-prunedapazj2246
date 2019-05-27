@@ -24,12 +24,12 @@ String birth =	JOptionPane.showInputDialog("Which birthday do you want?");
 		System.out.println(momsBirthday);//print mom's birthday
 		}
 		// 5. if user asked for "dad"
-		if(birth.equals("dad")) {
+		else if(birth.equals("dad")) {
 			System.out.println(dadsBirthday);
 			// print dad's birthday
 		}
 		// 6. if user asked for your name
-		if(birth.equals("Joaquin")) {
+		else if(birth.equals("Joaquin")) {
 			System.out.println(myBirthday);
 		}
 			// print myBirthday
